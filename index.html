@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SignUp</title>
+</head>
+<body>
+    <form id="form">
+        <input type="text" id="name" placeholder="Ismingizni kiriting">
+        <input type="text" id="surname" placeholder="Familiyangizni kiriting">
+        <input type="number" id="phone_num" placeholder="Telefon raqamingizni kiriting">
+        <input type="number" id="age" placeholder="Yoshingizni kiriting">
+        <input type="email" id="email" placeholder="Emailingizni kiriting">
+        <label id="lang"> Tilni tanglang
+            <select id="language">
+                <option value="uzbek">O'zbek</option>
+                <option value="english">English</option>
+                <option value="rus">Rus</option>
+            </select>
+        </label>
+        <textarea id="desc" cols="30" rows="10" placeholder="Fikringiz bo'lsa yozib qoldiring"></textarea>
+        <input type="password" id="pasword" placeholder="Parol kiriting">
+        <input type="password" id="pasword2" placeholder="Parolni qayta kiriting">
+        <button id="save">Saqlash</button>
+    </form>
+
+    <script src="./app.js"></script>
+</body>
+</html>
